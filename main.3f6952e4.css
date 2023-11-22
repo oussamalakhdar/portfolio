@@ -39,6 +39,38 @@
 
 .text-font{
 	font-size: 1.25rem; /* 20px */
-line-height: 1.75rem; /* 28px */
-font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px; 
+}
+
+li {
+    font-size: 14px; 
+}
+
+.navbar-nav li a {
+    font-size: 20px; 
+}
+
+.big-button {
+    font-size: 24px;
+    padding: 20px 50px;
+    background-color: #02735E;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.big-button:hover {
+    transform: scale(1.1);
+}
+
+.github-icon,
+.linkedin-icon {
+    margin-left: 20px; /* Adjust the value to your preference */
 }
