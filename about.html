@@ -69,8 +69,8 @@
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
                 <div class="col-xs-12 col-md-6">
-                  <h3 class="secondaryH" >Oussama Lakhdar</h3>
-                  <p >I am a Cloud DevOps Engineer intern currently enrolled in the 1337 School program. My journey is
+                  <h3 class="secondaryH">Oussama Lakhdar</h3>
+                  <p>I am a Cloud DevOps Engineer intern currently enrolled in the 1337 School program. My journey is
                     fueled by an unwavering passion for cloud computing technologies and DevOps best practices, and I'm
                     convinced that if I didn't become a DevOps enthusiast, I might have ended up becoming an astronaut –
                     but, for now, the clouds of the digital world are my space suit.
@@ -90,7 +90,7 @@
                     evolving, my adaptability and hands-on approach allow me to stay at the forefront of cloud
                     technology.
                   </p>
-<!--                   <p>
+                  <!--                   <p>
 
                     I approach challenges with an open mind and a dedication to ongoing improvement. I see every
                     obstacle as an opportunity for personal and professional growth. In a field that's constantly
@@ -109,8 +109,9 @@
 
                   </p>
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 text-center">
                   <img src="./assets/images/me.jpeg" class="img-responsive custom-mt" alt="">
+                  <button id="redirectButton" target="_blank" class="resume-button">Resume</button>
                 </div>
               </div>
             </div>
@@ -136,6 +137,9 @@
       document.addEventListener("DOMContentLoaded", function (event) {
         navActivePage();
       });
+      document.getElementById("redirectButton").addEventListener("click", function () {
+            window.open('./OussamaLakhdar.pdf', '_blank');
+        });
     </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 

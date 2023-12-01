@@ -73,5 +73,20 @@ li {
 
 .github-icon,
 .linkedin-icon {
-    margin-left: 20px; /* Adjust the value to your preference */
+    margin-left: 20px;
+}
+
+.resume-button {
+    font-size: 20px;
+    padding: 10px 35px;
+    background-color: #3d3c3c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.resume-button:hover {
+    transform: scale(1.1);
 }
